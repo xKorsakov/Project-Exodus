@@ -82,9 +82,7 @@ export default function Hero() {
 
       <div ref={headline} className="pointer-events-none absolute inset-x-0 top-[18vh] px-8 text-center">
         <h1 className="font-display text-5xl italic leading-tight text-white md:text-7xl">
-          Lo que se construye,
-          <br />
-          observa.
+          Project Exodus
         </h1>
       </div>
 
