@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: auto; }            /* ScrollTrigger gestiona el scroll */
+body { @apply bg-void text-ash font-sans antialiased; overflow-x: hidden; }
+
+::selection { background: #000080; color: #fff; }
+
+/* Scrollbar discreta */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #000; }
+::-webkit-scrollbar-thumb { background: #000033; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
