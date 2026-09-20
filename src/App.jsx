@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import Hero from './sections/Hero';
 import Intro from './sections/Intro';
 import Portfolio from './sections/Portfolio';
+import AboutMe from './sections/AboutMe';
 import BlogList from './sections/BlogList';
 import BlogPost from './components/BlogPostTemplate';
 
@@ -43,6 +44,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portafolio" element={<Portfolio />} />
+            <Route path="/sobre-mi" element={<AboutMe />} />
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>

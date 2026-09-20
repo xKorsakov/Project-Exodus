@@ -27,64 +27,7 @@
    ══════════════════════════════════════════════════════════════ */
 
 export const posts = [
-  {
-    slug: 'precedente-y-jurisprudencia',
-    title: 'Precedente y jurisprudencia: dos formas de recordar',
-    date: '2026-09-12',
-    readingTime: 7,
-    tags: ['Derecho comparado'],
-    excerpt:
-      'El common law obliga hacia atrás y el derecho continental orienta hacia adelante. La diferencia no es de técnica, sino de a quién se le confía la memoria del sistema.',
-    cover: null,
-    coverAlt: '',
-    body: [
-      {
-        type: 'p',
-        text: 'Cuando un tribunal inglés resuelve, no sólo cierra un conflicto: deja una regla en el camino. Cuando lo hace uno español, en cambio, aplica una regla que ya estaba puesta.',
-      },
-      { type: 'h2', text: 'La fuerza vinculante' },
-      {
-        type: 'p',
-        text: 'Stare decisis no es una costumbre amable entre jueces. Es una obligación estructural que distribuye poder normativo fuera del legislador.',
-      },
-      {
-        type: 'quote',
-        text: 'La doctrina jurisprudencial complementa el ordenamiento jurídico; no lo sustituye.',
-        cite: 'Código Civil español, art. 1.6',
-      },
-      {
-        type: 'list',
-        items: [
-          'El precedente ata al tribunal inferior de forma directa.',
-          'La jurisprudencia exige reiteración antes de pesar.',
-          'Ambos sistemas terminan buscando lo mismo: previsibilidad.',
-        ],
-      },
-    ],
-  },
-  {
-    slug: 'escribir-normas-para-que-se-cumplan',
-    title: 'Escribir normas para que se cumplan',
-    date: '2026-08-28',
-    readingTime: 5,
-    tags: ['Redacción normativa'],
-    excerpt:
-      'Una norma que nadie entiende no se incumple: se ignora. Notas sobre estructura, supuesto de hecho y consecuencia jurídica.',
-    cover: null,
-    coverAlt: '',
-    body: [
-      {
-        type: 'p',
-        text: 'Toda norma útil se deja partir en dos: qué tiene que pasar, y qué ocurre entonces. Si un artículo no admite ese corte, casi siempre sobra o está incompleto.',
-      },
-      { type: 'h2', text: 'El problema de las definiciones' },
-      {
-        type: 'p',
-        text: 'Definir dentro del articulado es tentador y caro. Cada definición enterrada en un inciso es una remisión que el lector tendrá que reconstruir de memoria.',
-      },
-    ],
-  },
-];
+ ];
 
 export const getPost = (slug) => posts.find((p) => p.slug === slug);
 
