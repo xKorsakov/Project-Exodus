@@ -3,27 +3,27 @@
 const COURSES = [
   { name: 'Desarrollador de Juegos con Roblox (Lua)', level: 'Poca o nula — sin práctica desde que acabó el curso' },
   { name: 'Diseño de mundos fantásticos (dibujo)', level: 'Poca — oxidado, tanto en digital como en papel' },
-  { name: 'Python nivel 1', level: 'Media — lo usa seguido pero necesita repracticar escritura' },
+  { name: 'Python nivel 1', level: 'Media — lo uso seguido pero necesito repracticar escritura' },
   { name: 'Inicio de desarrollo web', level: 'Media — bases sólidas, algunas cosas por reforzar' },
-  { name: 'Programación con Minecraft', level: 'Profesional — 4 años continuos' },
+  { name: 'Programación con Minecraft', level: 'Profesional — 4 años continuos por favor ya saquenme de aqui necesito un descanso' },
 ];
 
 const HOBBIES = [
   {
     title: 'Política',
-    text: 'Cómo los líderes mundiales manejan el mundo. Lee noticias políticas y le gusta debatir sobre ellas.',
+    text: 'Cómo los líderes mundiales manejan el mundo. Leo noticias políticas y me gusta debatir sobre ellas.',
   },
   {
     title: 'Aeronáutica militar',
-    text: 'Aviones militares y cómo están hechos por dentro. Su caza favorito es el F-22 Raptor ("Zombie" / "Symbiote"), incluida su etapa como YF-22 y el Matte Black, un acabado experimental descartado pensado para absorber ondas electromagnéticas de alta frecuencia.',
+    text: 'Aviones militares y cómo están hechos por dentro. Mi caza favorito es el F-22 Raptor ("Zombie" / "Symbiote"), incluida en su etapa como YF-22 y el Matte Black, un acabado experimental descartado pensado para absorber ondas electromagnéticas de alta frecuencia.',
   },
   {
     title: 'Derecho',
-    text: 'Un día llevó la Constitución española al colegio. Su madre es abogada.',
+    text: 'Un dia lleve la Constitucion Española a clase, jurao jurao.',
   },
   {
     title: 'Guerra',
-    text: 'Tácticas militares, filtraciones y cómo se ejecutan las operaciones.',
+    text: 'Tácticas militares, filtraciones y cómo se ejecutan las operaciones, tipo, me encanta ver como caen las bombas, no significa que sea un psicópata, es solo que me gusta ver como se destruye la infraestructura enemiga y como se ejecutan las operaciones.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function AboutMe() {
 
       <div className="mt-10 space-y-6 text-lg leading-relaxed text-ash/85">
         <p>
-          Soy Aaron, tengo 18 años y llevo diez programando. Empecé a los ocho, con unas clases
+          Soy Aaron, tengo 13 años y llevo 5 añosprogramando. Empecé a los ocho, con unas clases
           de programación por medio de Minecraft — lo que en su momento parecía una tontería
           terminó llevándome a aprender a programar en serio.
         </p>
@@ -69,7 +69,7 @@ export default function AboutMe() {
       <h2 className="mt-20 font-display text-2xl italic text-white">Sueño</h2>
       <p className="mt-8 text-lg leading-relaxed text-ash/85">
         Convertirme en Red Teamer, Pentester, o desarrollador de IA. Principalmente porque me
-        apasiona la ciberseguridad — y, siendo sincero, también porque pagan bien.
+        apasiona la ciberseguridad — y, siendo sincero, también porque pagan una pasta cabron, si me pagaran lo mismo en todos lso trabajos tiraria de jugador profesional de videojuegos sabes, pero vamos, no soy retrasado
       </p>
     </section>
   );

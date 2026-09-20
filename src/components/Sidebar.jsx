@@ -53,7 +53,7 @@ export default function Sidebar() {
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 flex-col justify-between border-r border-navy-deep bg-black/40 px-6 py-10 backdrop-blur-xl lg:flex">
         <div>
           <p className="font-display text-2xl italic text-white">Aaron</p>
-          <p className="mt-1 text-xs text-ash/40">Derecho y sistemas</p>
+          <p className="mt-1 text-xs text-ash/40">Desarrollador</p>
         </div>
         <Nav />
         <p className="text-xs text-ash/30">© {new Date().getFullYear()}</p>

@@ -9,7 +9,7 @@ export default function BlogList() {
     <section className="mx-auto max-w-3xl px-8 pb-40 pt-28">
       <h1 className="font-display text-4xl italic text-white">Blog</h1>
       <p className="mt-4 max-w-md text-sm text-ash/50">
-        Apuntes de derecho comparado, procedimiento y las herramientas que construyo por el camino.
+        Tonterias que escribo cuando me aburro y que me da por publicar para no olvidarme de ellas.
       </p>
 
       {ordered.length === 0 ? (
